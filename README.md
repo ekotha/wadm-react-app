@@ -2,7 +2,9 @@
 
 This is a web application built with React.js that allows users to perform calculations using the Weighted Average Decision Matrix (WADM) method. The WADM method is commonly used for decision-making when there are multiple criteria and options involved.
 
-Try it yourself here: [link coming soon]
+[![Run on Repl.it](https://replit.com/badge/github/ekotha/wadm-react-app)](https://replit.com/new/github/ekotha/wadm-react-app)
+
+[Web Link](https://wadm-react-app.eashankotha.repl.co)
 
 ## Features
 
