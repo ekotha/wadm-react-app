@@ -91,7 +91,6 @@ button:hover {
 
 .container {
   width: 100vw;
-  margin: 0 auto;
 }
 
 .containerTitle {
@@ -110,7 +109,6 @@ button:hover {
 
 @media (max-width: 768px) {
   .container {
-    /* width: 50vw; */
     padding: 20px;
   }
 }
@@ -135,20 +133,40 @@ button:hover {
   }
 }
 
+
 /* 2778x1284 pixels at 458ppi */
-@media only screen 
-    and (device-width: 428px) 
+@media  (device-width: 428px) 
     and (device-height: 926px) 
-    and (-webkit-device-pixel-ratio: 3) { }
+    and (-webkit-device-pixel-ratio: 3) {
+  .containerTitle {
+    max-width:295px;
+  }
+  .container {
+    width: 350px;
+  }
+    }
 
 /* 1792x828px at 326ppi */
-@media only screen 
-and (device-width: 414px) 
+@media  (device-width: 414px) 
 and (device-height: 896px) 
-and (-webkit-device-pixel-ratio: 2) { }
+and (-webkit-device-pixel-ratio: 2) {
+.containerTitle {
+    max-width:295px;
+  }
+  .container {
+    width: 350px;
+  }
+}
 
 /* 2688x1242px at 458ppi */
-@media only screen 
-    and (device-width: 414px) 
+@media  (device-width: 414px) 
     and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3) { }
+    and (-webkit-device-pixel-ratio: 3) {
+    .containerTitle {
+    max-width:295px;
+  }
+  .container {
+    width: 350px;
+  }
+ 
+    }
